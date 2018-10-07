@@ -1,0 +1,15 @@
+* {
+  font-family: $font-primary;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+}
+
+.bg-hands {
+  background-image: url(./assets/temp-bg.jpg);
+  background-size: contain;
+  background-position: center;
+  height: calc(100vh - 64px);
+}

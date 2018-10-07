@@ -1,1 +1,24 @@
-$blue: #282c34;
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Niramit');
+$font-primary: 'Niramit', sans-serif;
+
+// App colors
+$dark: #1e1e1e;
+$blue: #1A81FF;
+$blue-darker: #1a75ff;
+$text-dark: #4a4a4a;
+
+// Bulma variables
+$primary: $blue;
+$radius-rounded: 6px;
+
+// Navbar
+$navbar-height: 4rem;
+$navbar-background-color: $blue;
+$navbar-box-shadow-size: 0 8px 8px 0;
+$navbar-item-color: #FFF;
+$navbar-item-hover-color: #FFF;
+$navbar-item-hover-background-color: $blue-darker;
+$navbar-dropdown-arrow: #FFF;
+$navbar-dropdown-border-top: 0;
+$navbar-dropdown-item-active-color: $blue;
