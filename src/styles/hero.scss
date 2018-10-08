@@ -1,0 +1,34 @@
+.hero {
+  background: $blue;
+  height: 100vh;
+  width: calc(50% - 25px);
+  position: relative;
+  margin-top: -64px;
+}
+.hero-left {
+  float: left;
+}
+.hero-right {
+  float: right;
+}
+.hero, .hero-left, .hero-right {
+  &:after {
+    position: absolute;
+    top: 0px;
+    content:'';
+    z-index: -1;
+    height: 100%;
+    width: 50%;
+    background: $blue;
+  }
+}
+.hero-left:after {
+  right: 0;
+  transform-origin: bottom right;
+  transform: skewX(-10deg);
+}
+.hero-right:after {
+  left: 0;
+  transform-origin: top left;
+  transform: skewX(-10deg);
+}

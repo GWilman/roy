@@ -5,27 +5,31 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav class="navbar" role="navigation" aria-label="dropdown navigation">
-          <a class="navbar-item">
-            <img src={logo} alt="logo" />
-          </a>
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              Blueberry
+        <nav className="navbar" role="navigation" aria-label="dropdown navigation">
+          <div className="navbar-start">
+            <a className="navbar-item">
+              <img src={logo} alt="logo" />
             </a>
-            <div class="navbar-dropdown">
-              <a class="navbar-item has-text-dark">
-                Overview
+          </div>
+          <div className="navbar-end">
+            <div className="navbar-item has-dropdown is-hoverable">
+              <a className="navbar-link">
+                Blueberry
               </a>
-              <a class="navbar-item has-text-dark">
-                Elements
-              </a>
-              <a class="navbar-item has-text-dark">
-                Components
-              </a>
-              <hr class="navbar-divider" />
-              <div class="navbar-item has-text-dark">
-                Version 0.7.1
+              <div className="navbar-dropdown">
+                <a className="navbar-item has-text-dark">
+                  Overview
+                </a>
+                <a className="navbar-item has-text-dark">
+                  Elements
+                </a>
+                <a className="navbar-item has-text-dark">
+                  Components
+                </a>
+                <hr className="navbar-divider" />
+                <div className="navbar-item has-text-dark">
+                  &copy; Noonan LLP 2018
+                </div>
               </div>
             </div>
           </div>

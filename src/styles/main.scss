@@ -7,9 +7,15 @@
   width: 100vw;
 }
 
-.bg-hands {
-  background-image: url(./assets/temp-bg.jpg);
+.body {
+  padding: 0;
+}
+
+.bg-logo {
+  height: 300px;
+  width: 300px;
+  background-image: url(./assets/blueberry_logo_blue.svg);
   background-size: contain;
   background-position: center;
-  height: calc(100vh - 64px);
+  background-repeat: no-repeat;
 }
