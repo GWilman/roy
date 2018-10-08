@@ -23,4 +23,7 @@ $navbar-item-hover-background-color: transparent;
 $navbar-dropdown-arrow: transparent;
 $navbar-dropdown-border-top: 0;
 $navbar-dropdown-item-active-color: $blue;
-$navbar-dropdown-offset: 20px;
+$navbar-dropdown-offset: -20px;
+
+// Card
+$card-shadow: 0 8px 8px 4px rgba(#000, 0.1);
