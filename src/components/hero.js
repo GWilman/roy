@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../assets/blueberry_logo_blue.svg';
 
 class Hero extends Component {
   render() {
@@ -11,22 +10,24 @@ class Hero extends Component {
           <div className="hero-content-left center-everything flex-column">
             <h2 className="title is-2 has-text-white">For Businesses</h2>
             <div className="card has-rounded-corners">
-              <div class="card-content">
-                <p class="text is-6">
+              <div className="card-content">
+                <p className="text is-6">
                   Find a lawyer and get a quote in minutes.
                 </p>
               </div>
             </div>
+            <div className="icon-container icon-run"></div>
           </div>
           <div className="hero-content-right center-everything flex-column">
             <h2 className="title is-2 has-text-primary">For Lawyers</h2>
             <div className="card has-rounded-corners">
-              <div class="card-content">
-                <p class="text is-6">
+              <div className="card-content">
+                <p className="text is-6">
                   Get hired for jobs that suit your skills and availability.
                 </p>
               </div>
             </div>
+            <div className="icon-container icon-calendar"></div>
           </div>
         </div>
         {/* <div className="hero-body center-everything flex-column">

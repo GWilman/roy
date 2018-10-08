@@ -12,19 +12,27 @@ class Navbar extends Component {
             </a>
           </div>
           <div className="navbar-end">
+            <div className="navbar-item">
+              <a className="navbar-link">
+                Get Started
+              </a>
+              <a className="navbar-link">
+                Login
+              </a>
+            </div>
             <div className="navbar-item has-dropdown is-hoverable">
               <a className="navbar-link">
-                Blueberry
+                More
               </a>
               <div className="navbar-dropdown">
                 <a className="navbar-item has-text-dark">
-                  Overview
+                  Who we are
                 </a>
                 <a className="navbar-item has-text-dark">
-                  Elements
+                  What we do
                 </a>
                 <a className="navbar-item has-text-dark">
-                  Components
+                  Contact
                 </a>
                 <hr className="navbar-divider" />
                 <div className="navbar-item has-text-dark">

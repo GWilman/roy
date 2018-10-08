@@ -1,7 +1,13 @@
 nav {
   padding: 0 3rem;
 
+  .navbar-link {
+    &:hover {
+      font-weight: bold;
+    }
+  }
+
   .navbar-dropdown {
-    left: -24px;
+    left: -60px;
   }
 }

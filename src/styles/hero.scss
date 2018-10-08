@@ -46,4 +46,23 @@
     width: 100%;
   }
 }
+
+.icon-container {
+  height: 300px;
+  width: 300px;
+
+  &.icon-run {
+    background-image: url(./assets/icon-run.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &.icon-calendar {
+    background-image: url(./assets/icon-calendar.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
 // DIAGONAL SPLIT SCREEN END
