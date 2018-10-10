@@ -5,7 +5,7 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar" role="navigation" aria-label="dropdown navigation">
+        <nav className="navbar is-fixed-top" role="navigation" aria-label="dropdown navigation">
           <div className="navbar-start">
             <a className="navbar-item">
               <img src={logo} alt="logo" />

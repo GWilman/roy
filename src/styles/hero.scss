@@ -1,68 +1,128 @@
-// DIAGONAL SPLIT SCREEN
+// // DIAGONAL SPLIT SCREEN
+// .hero {
+//   background: $blue;
+//   height: 100vh;
+//   width: calc(50% - 25px);
+//   position: relative;
+//   margin-top: -64px;
+// }
+//
+// .hero-left {
+//   float: left;
+// }
+//
+// .hero-right {
+//   float: right;
+// }
+//
+// .hero, .hero-left, .hero-right {
+//   &:after {
+//     position: absolute;
+//     top: 0px;
+//     content:'';
+//     z-index: -1;
+//     height: 100%;
+//     width: 50%;
+//     background: $blue;
+//   }
+// }
+//
+// .hero-left:after {
+//   right: 0;
+//   transform-origin: bottom right;
+//   transform: skewX(-8deg);
+// }
+//
+// .hero-right:after {
+//   left: 0;
+//   transform-origin: top left;
+//   transform: skewX(-8deg);
+// }
+//
+// .hero-body {
+//   width: 100vw;
+//
+//   .hero-content-left, .hero-content-right {
+//     width: 100%;
+//   }
+// }
+//
+// .icon-container {
+//   height: 300px;
+//   width: 300px;
+//
+//   &.icon-run {
+//     background-image: url(./assets/icon-run.svg);
+//     background-position: center;
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//   }
+//
+//   &.icon-calendar {
+//     background-image: url(./assets/icon-calendar.svg);
+//     background-position: center;
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//   }
+// }
+// // DIAGONAL SPLIT SCREEN END
+
+// BUSH INTRO
 .hero {
-  background: $blue;
-  height: 100vh;
-  width: calc(50% - 25px);
+  height: calc(100vh - 64px);
+  margin-top: 64px;
+}
+
+.brand-logo {
+  height: 60px;
+  margin-top: -30px;
+}
+
+.bush {
   position: relative;
-  margin-top: -64px;
-}
-
-.hero-left {
-  float: left;
-}
-
-.hero-right {
-  float: right;
-}
-
-.hero, .hero-left, .hero-right {
-  &:after {
-    position: absolute;
-    top: 0px;
-    content:'';
-    z-index: -1;
+  height: 540px;
+  width: 540px;
+  img {
     height: 100%;
-    width: 50%;
-    background: $blue;
-  }
-}
-
-.hero-left:after {
-  right: 0;
-  transform-origin: bottom right;
-  transform: skewX(-8deg);
-}
-
-.hero-right:after {
-  left: 0;
-  transform-origin: top left;
-  transform: skewX(-8deg);
-}
-
-.hero-body {
-  width: 100vw;
-
-  .hero-content-left, .hero-content-right {
     width: 100%;
   }
-}
+  .face {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+    transition: all 0.2s ease;
 
-.icon-container {
-  height: 300px;
-  width: 300px;
+    &.one {
+      top: 110px;
+      left: 94px;
+      background: url(https://fillmurray.com/100/100);
+    }
 
-  &.icon-run {
-    background-image: url(./assets/icon-run.svg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    &.two {
+      top: 270px;
+      right: 105px;
+      background: url(https://fillmurray.com/101/101);
+    }
+
+    &.three {
+      top: 80px;
+      right: 80px;
+      background: url(https://fillmurray.com/102/102);
+    }
+
+    &.four {
+      top: 276px;
+      left: 52px;
+      background: url(https://fillmurray.com/103/102);
+    }
+
+    &:hover {
+      transform: scale(1.2);
+    }
+
   }
-
-  &.icon-calendar {
-    background-image: url(./assets/icon-calendar.svg);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
 }
-// DIAGONAL SPLIT SCREEN END
+// BUSH INTRO END
